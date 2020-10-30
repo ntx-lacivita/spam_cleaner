@@ -64,7 +64,6 @@ namespace SpamDivider
             }
 
             var provedores = resultado.Distinct().ToList();
-            File.WriteAllText("log.txt", "Quantidade de dominios:" + (provedores.Count - 1));
             return provedores;
         }
 

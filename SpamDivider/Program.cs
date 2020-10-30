@@ -9,6 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Configuration;
+using System.Diagnostics;
 
 namespace SpamDivider
 {
@@ -16,11 +17,12 @@ namespace SpamDivider
     {
         static void Main(string[] args)
         {
+            DateTime inicio = DateTime.Now;
             Metodos metodos = new Metodos();
             string login = ConfigurationManager.AppSettings["Login"];
             string senha = ConfigurationManager.AppSettings["Senha"];
-
             metodos.SpamRegister(login,senha);
+            File.WriteAllText("log-resultados.txt", "Quantidade de dominios:" + (metodos.Cleaner().Count - 1) + " - Data/Hora de Início: " + inicio + " - Data/Hora de Início: " + DateTime.Now);
         }
     }
 }
