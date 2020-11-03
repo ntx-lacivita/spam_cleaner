@@ -17,7 +17,7 @@ namespace SpamDivider
             var result = Cleaner();
             ChromeOptions options = new ChromeOptions();
             options.AddArguments("--start-maximized");
-            IWebDriver driver = new ChromeDriver(Directory.GetCurrentDirectory(), options);
+            IWebDriver driver = new ChromeDriver("C:\\", options);
             driver.Url = "https://webmail-seguro.com.br/ntx.com.br/";
             driver.FindElement(By.Id("rcmloginuser")).SendKeys(login);
             driver.FindElement(By.Id("rcmloginpwd")).SendKeys(senha);

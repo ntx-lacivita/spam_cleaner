@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.1267
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpamDivider", "SpamDivider\SpamDivider.csproj", "{76FAC019-55EF-46B2-9C0A-46034559503E}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Spam Divider - Instalador", "SpamDivider\Instalador\Spam Divider - Instalador\Spam Divider - Instalador.vdproj", "{291EF788-92B9-41CC-8D88-7B7C499C2B7D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,8 @@ Global
 		{76FAC019-55EF-46B2-9C0A-46034559503E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{76FAC019-55EF-46B2-9C0A-46034559503E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{76FAC019-55EF-46B2-9C0A-46034559503E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{291EF788-92B9-41CC-8D88-7B7C499C2B7D}.Debug|Any CPU.ActiveCfg = Debug
+		{291EF788-92B9-41CC-8D88-7B7C499C2B7D}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

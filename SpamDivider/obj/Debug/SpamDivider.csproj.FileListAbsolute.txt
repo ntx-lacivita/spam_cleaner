@@ -19,3 +19,7 @@ D:\Downloads\Estágio\Spam\SpamDivider\SpamDivider\bin\Debug\nunit.framework.pdb
 D:\Downloads\Estágio\Spam\SpamDivider\SpamDivider\bin\Debug\nunit.framework.xml
 D:\Downloads\Estágio\Spam\SpamDivider\SpamDivider\bin\Debug\WebDriver.xml
 D:\Downloads\Estágio\Spam\SpamDivider\SpamDivider\obj\Debug\SpamDivider.csproj.CopyComplete
+D:\Downloads\Estágio\Spam\SpamDivider\SpamDivider\bin\Debug\SpamDivider.exe.manifest
+D:\Downloads\Estágio\Spam\SpamDivider\SpamDivider\bin\Debug\SpamDivider.application
+D:\Downloads\Estágio\Spam\SpamDivider\SpamDivider\obj\Debug\SpamDivider.exe.manifest
+D:\Downloads\Estágio\Spam\SpamDivider\SpamDivider\obj\Debug\SpamDivider.application
